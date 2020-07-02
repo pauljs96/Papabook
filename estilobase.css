@@ -83,6 +83,7 @@ width: 45%;
 height: 80%;
 border-style: solid;
 margin:1em;
+position: relative;
 
 }
 
@@ -126,3 +127,30 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 
 }
 
+
+
+.premios h3{
+
+    text-align: center;
+}
+.premios li{
+
+    border-radius: 1em;
+    border-style: double;
+    box-sizing: border-box;
+    margin:1em;
+    padding: 1em;
+    
+    
+    
+          
+  
+}
+
+li img{
+
+    width: 2em;
+    height: 2em;
+    border-radius: 1em;
+        
+}

@@ -1,9 +1,61 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-
-
+    <title>Compite y Gana con Papabook</title>
+    <meta charset="UTF-8">
+<meta name="viewport" content="Width=device-width;initial-scale=1.0">
+<link href="estilobase.css" rel="stylesheet">
+<link href="ventanabig.css" rel="stylesheet" media="screen and (min-width:1020px)">
+<link href="ventanamedium.css" rel="stylesheet" media="screen and (min-width:841px) and (max-width:1019px)">
+<link href="ventanamini.css" rel="stylesheet" media="screen and (max-width:840px)">
 </head>
 <body>
+    <div class="contenedor">
+        
+
+<div class="header">
+<h1>PAPABOOK</h1>
+</div>
+
+<div class="descripcion">
+<p>Demuestranos tu mejor preparación a base de papa peruana y compite para obtener los mejores premios</p>
+</div>
+
+<div class=contenido>
+    <div class="inscripcion">
+        <form method="POST" action="informacion_enviada.html" accept-charset="UTF-8">
+            <table>
+            <h3>Ingresa aquí tu concursante</h3>
+            <br>
+            <br>
+            <br>
+            <tr><td><label for="nombre_p">Plato</label></td><td><input type="text" placeholder="paparellena" id="nombre_p" required></td></tr>
+            <tr><td><label>Tipo de Papa</label></td><td><select required><option>huayro</option><option>canchan</option><option>amarilla</option></select></td></tr>
+            <tr><td><label for="nombre-aut">Autor</label></td><td><input type="text" id="nombre-aut" placeholder="Juan Pérez" required></td></tr>
+            <tr><td><label for="precio">Precio (S/.)</label></td><td><input type="text" placeholder="10.54" id="precio" required></td></tr>
+            <tr><td><label>Carga la imagen</label></td><td><input type="file" required></td></tr>
+
+            <tr><td colspan="2"><input type="submit" value="Participar"></td></tr>
+        </table>
+        </form>
+    </div>
+    
+
+<div class="premios">
+    <p>premios</p>
+</div>
+
+</div>
+
+<div class="pie">
+
+</div>
+
+
+
+
+
+    </div>
 
 
 

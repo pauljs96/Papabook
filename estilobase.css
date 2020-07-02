@@ -1,0 +1,128 @@
+.big{
+
+display: none;
+
+}
+
+.medium{
+
+    display: none;
+}
+.mini{
+    display: none;
+}
+
+.contenedor{
+background-color: grey;
+border-color:black;
+height: 1000px;
+
+
+
+}
+
+.header{
+
+text-align: center;
+border-style: solid;
+background-color: rgba(108, 243, 108, 0.75);
+padding: 1em;
+margin:1em;
+box-sizing: border-box;
+border-radius: 2em;
+height: 20%;
+
+
+}
+
+.descripcion{
+
+    text-align: center;
+    border-style: solid;
+    background-color: rgba(21, 122, 21, 0.75);
+    padding: 2em;
+    margin:1em;
+    box-sizing: border-box;
+    border-radius: 2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 20%;
+
+}
+
+
+.contenido{
+
+background-color: salmon;
+height: 50%;
+margin:1em;
+box-sizing: border-box;
+border-radius: 2em;
+
+}
+
+.inscripcion{
+    
+
+background-color: skyblue;
+border-style: solid;
+float: left;
+width: 45%;
+height: 80%;
+border-style: solid;
+box-sizing: border-box;
+margin:1em;
+position: relative;
+
+}
+
+.premios{
+background-color: springgreen;
+float: left;
+box-sizing: border-box;
+width: 45%;
+height: 80%;
+border-style: solid;
+margin:1em;
+
+}
+
+.pie{
+    background-color:rgba(255, 255, 255, 0.5);
+    clear: both;
+    height: 5%;
+    text-align: center;
+    border-radius: 1em;
+    padding:1em;
+    box-sizing: border-box;
+    border-style: solid;
+margin:1em;
+
+
+}
+
+/*   dar formato a etiquetas especiales*/
+
+.header h1{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: oblique;
+
+}
+
+
+.inscripcion table{
+border-style: double;
+position: absolute;
+left: 20%;
+top:20%;
+padding:2em ;
+box-sizing: border-box;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.inscripcion h3{
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+

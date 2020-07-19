@@ -1,11 +1,53 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+<meta charset="UTF-8">
+<title>Confirmación de ingreso</title>
 
 
+<meta name="viewport" content="Width=device-width;initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<link href="css/estilobase.css" rel="stylesheet">
+<link href="css/ventanabig.css" rel="stylesheet" media="screen and (min-width:1020px)">
+<link href="css/ventanamedium.css" rel="stylesheet" media="screen and (min-width:841px) and (max-width:1019px)">
+<link href="css/ventanamini.css" rel="stylesheet" media="screen and (max-width:840px)">
 
 </head>
 <body>
+
+<div id="conte">
+<h2 >Felicitaciones!!! <br>Postulaste con éxito</h2>
+
+<a href="index.html" >Regresar</a>
+
+
+</div>
+
+
+
+
+<script >
+
+
+    var feli= document.getElementById("conte").getElementsByTagName("h2");
+    var regreso= document.getElementById("conte").getElementsByTagName("a");
+
+
+
+feli[0].style.color="green";
+feli[0].style.webkitTextStroke="2px rgb(21, 24, 22)";
+feli[0].style.fontFamily="cursive";
+feli[0].style.fontSize="8em";
+feli[0].style.textShadow="-8px 8px 8px rgb(23,25,25)";
+feli[0].parentNode.style.textAlign="center";
+
+regreso[0].style.fontSize="2em";
+regreso[0].style.color="white";
+regreso[0].style.border="double white";
+regreso[0].style.background="black";
+regreso[0].style.textDecoration="none";
+
+    </script>
+
 
 
 

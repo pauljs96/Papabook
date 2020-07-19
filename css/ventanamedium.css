@@ -1,0 +1,22 @@
+.medium{
+
+    display: inherit !important;
+}
+
+
+
+
+.header{
+    width: 60%;
+    margin-left: 20%;
+    height: 15%;
+    }
+
+
+    .header h1{
+
+        
+        font-size: 3em;
+    
+    }
+

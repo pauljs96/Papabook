@@ -4,16 +4,26 @@
     <title>Compite y Gana con Papabook</title>
     <meta charset="UTF-8">
 <meta name="viewport" content="Width=device-width;initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
-<link href="estilobase.css" rel="stylesheet">
-<link href="ventanabig.css" rel="stylesheet" media="screen and (min-width:1020px)">
-<link href="ventanamedium.css" rel="stylesheet" media="screen and (min-width:841px) and (max-width:1019px)">
-<link href="ventanamini.css" rel="stylesheet" media="screen and (max-width:840px)">
+<link href="css/estilobase.css" rel="stylesheet">
+<link href="css/ventanabig.css" rel="stylesheet" media="screen and (min-width:1020px)">
+<link href="css/ventanamedium.css" rel="stylesheet" media="screen and (min-width:841px) and (max-width:1019px)">
+<link href="css/ventanamini.css" rel="stylesheet" media="screen and (max-width:840px)">
 
-<link href="font.css" rel="stylesheet">
+<link href="css/font.css" rel="stylesheet">
 </head>
-<body>
+<body >
     <div class="contenedor">
+    
+
+        <div class=cambia_fondo><h3>CAMBIA FONDO</h3>
         
+        <label for="claro">Claro </label><input type="radio" name="ima-fondo" id="claro">
+        <label for="predeterminado">Predeterminado</label><input type="radio" name="ima-fondo" id="predeterminado">
+        <label for="oscuro">Oscuro</label><input type="radio" name="ima-fondo" id="oscuro">
+         
+        </div> 
+        
+
 
 <div class="header">
 <h1>PAPABOOK</h1>
@@ -25,28 +35,28 @@
 
 <div class=contenido>
     <div class="inscripcion">
-        <form method="POST" action="informacion_enviada.html" accept-charset="UTF-8" >
+        <form method="GET" action="" accept-charset="UTF-8" id="formulario">
             
                
             <h3>Ingresa aquí tu concursante</h3>
             
-            <label for="nombre_p">Plato</label><br><input type="text" placeholder="papa rellena" id="nombre_p" required><br>
+            <label for="nombre_p">Plato</label><br><input type="text" placeholder="papa rellena" id="nombre_p" name ="nombre_p" autofocus><br>
             <label>Tipo de Papa</label><br><select required><option>huayro</option><option>canchan</option><option>amarilla</option></select><br>
-            <label for="nombre-aut">Autor</label><br><input type="text" id="nombre-aut" placeholder="Juan Pérez" required><br>
-            <label for="precio">Precio (S/.)</label><br><input type="text" placeholder="10.54" id="precio" required><br>
-            <label>Carga la imagen</label><br><input type="file" required><br>
+            <label for="nombre-aut">Autor</label><br><input type="text" placeholder="Juan Pérez" id="nombre_aut" ><br>
+            <label for="precio">Precio (S/.)</label><br><input type="text" placeholder="10.54" id="precio" ><br>
+            <label>Carga la imagen</label><br><input type="file" id="imagen" ><br>
 
             <br>
-            <input type="submit" value="Participar">
+            <input type="submit" value="Participar" >
         
         </form>
     </div>
     
 
 <div class="premios" >
-    <h3>Platos premiados de la semana <img src="estrella.jfif"></h3>
+    <h3>Premiados de la semana <img src="css/estrella.jfif"></h3>
     <ol>
-<li class="gana1"><strong>Papa a la hunacaina</strong><a href="primer_puesto.html" target="_blank"><img src="imagenes\papa_huancaina.jfif" alt="papa huancaina" ></a> Marcelo Robles</li>
+<li class="gana1"><strong>Papa a la huancaina</strong><a href="primer_puesto.html" target="_blank"><img src="imagenes\papa_huancaina.jfif" alt="papa huancaina" ></a> Marcelo Robles</li>
 <li class="gana2"><strong>Ensalada de papa</strong><a href="segundo_puesto.html" target="_blank"><img src="imagenes\ensalada_de_papa.jfif" alt="ensalada de papa" ></a> Catalina Flores</li>
 <li class="gana3"><strong>Papas con tomillo</strong><a href="tercer_puesto.html" target="_blank"><img src="imagenes\papas_con_tomillo.jfif" alt="papas con tomillo" ></a>Danna Galvéz </li>
 
@@ -73,20 +83,36 @@
 
 </div>
 
-<div id="fq">
-<h3>Preguntas Frecuentes</h3>
+<div class="fq" id="divido">
+<h3 id="hh3">Preguntas Frecuentes</h3>
 <ul>
-    <li><a href="fq1.html" target="_blank">¿Qué es Papabook?</a></li>
-    <li>¿Cómo participo?</li>
-    <li>¿Quién califica a los concursantes?</li>
-    <li>¿Cómo sabré si gané?</li>
-    <li>¿Mi información esta segura aquí?</li>
+    <li><a href="fq1.html #queeseso?" target="_blank">¿Qué es Papabook?</a></li>
+    <li><a href="fq1.html #participo?" target="_blank">¿Cómo participo?</a></li>
+    <li><a href="fq1.html #califica?" target="_blank">¿Quién califica a los concursantes?</a></li>
+    <li><a href="fq1.html #gané?" target="_blank">¿Cómo sabré si gané?</a></li>
+    <li><a href="fq1.html #seguridad?" target="_blank">¿Mi información esta segura aquí?</a></li>
 </ul>
 
 </div>
 
 
+<div class="auspiciadores" id="auspiciadores">
+    <h3>Auspiciadores</h3>
+   <p><img src="imagenes/ausp1.jfif"></img></p>
+   <p><img src="imagenes/ausp2.jfif"></img></p>
+   <p><img src="imagenes/ausp3.png"></img></p>
+   <p><img src="imagenes/ausp4.jfif"></img></p>
+   <p><img src="imagenes/ausp5.png"></img></p>
+   </div>
+
+
 </div>
+
+
+
+
+<script src="js/logica.js"></script>
+
 
 
 

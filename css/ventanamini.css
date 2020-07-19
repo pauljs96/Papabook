@@ -1,0 +1,23 @@
+.mini{
+
+    display: inherit !important;
+}
+
+
+.header{
+    width: 80%;
+    margin-left: 10%;
+    height: 15%;
+    }
+
+
+    .header h1{
+
+        
+        font-size: 3em;
+    
+    }
+
+
+
+

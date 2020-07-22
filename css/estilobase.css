@@ -15,66 +15,60 @@ display: none;
 
 /* Pagina principal*/
 
-.body1{
-    background:url("imagenes-fondo/claro.jfif");
+body,.body1{
+    background: white;
+    background-repeat: no-repeat;
     background-size: cover;
-
+margin:0;
 }
 
-body,.body2{
-    background:url("imagenes-fondo/predeterminado.jfif");
+.body2{
+    background:url("../imagenes/fondo_morado.jpg");
+    background-repeat: no-repeat;
     background-size: cover;
+    margin:0;
 }
 
 .body3{
-    background:url("imagenes-fondo/oscuro.jfif");
+    background:black;
+    background-repeat: no-repeat;
     background-size: cover;
+    margin:0;
 }
 
-.contenedor{
 
-height: 100%;
-width: 100%;
-
-}
 
 
 .cambia_fondo{
    
     text-align: center;
-    width: 20%;
-    margin-left: 79%;
-    color: #009975;
-    
-}
+    color: #c1a57b;
+   
+    }
 
 
 
 .header{
-    
     text-align: center;
     border-radius: 2em;
     font-family: cursive;
     font-style: oblique;
-   color:  #009975;
-    padding: 0 1em 0 1em;
-    -webkit-text-stroke: 2px rgb(21, 24, 22);
+   color:  #c1a57b;
+     -webkit-text-stroke: 2px rgb(21, 24, 22);
     text-shadow:-8px 8px 8px rgb(41, 44, 42);
     }
 
 .descripcion{
     text-align: center;
-    background-color:#009975;
+    font-size: 2em;
    width: 50%;
    margin-left: 25%;
-    margin-top:1em;
     box-sizing: border-box;
     border-radius: 2em;
     font-family: cursive;
-    box-shadow:-8px 8px 8px rgb(41, 44, 42);
+    box-shadow:rgb(41, 44, 42);
     padding: 1em;
- 
-  
+     
    }
 
 
@@ -82,18 +76,22 @@ width: 100%;
 
 margin:1em;
 padding: 1em;
-
+background: black;
+overflow: hidden;
+border-radius: 2em;
+background:url("../imagenes/fondo_contenido.jpg") ;
 }
 
 
 .inscripcion{
     
-    background-color: rgb(21, 24, 22);
+    
     float: left;
     width: 25%;
     margin-left: 15%;
     border-radius: 1em;
-    box-shadow:-8px 8px 8px rgb(41, 44, 42);
+    border:double white;
+    
          }
 
 
@@ -106,14 +104,14 @@ padding: 1em;
    }
     
 .premios{
-    background-color: #009975;
+    
     float: left;
     width: 25%;
    margin-left: 19%;
    border-radius: 1em;
    padding: 0.5em 2em 2em 2em;
    font-family: cursive;
-   box-shadow: -8px 8px 8px rgb(41, 44, 42);
+   
        }
 
 
@@ -157,6 +155,55 @@ padding: 1em;
 }
 
 
+
+section{
+    clear: both;
+    background-image:url("../imagenes/exporta.jpg");
+    position: relative;
+      background-size: cover;
+    background-position: center;
+ padding: 1em;
+}
+
+
+section:before{
+content:'';
+position: absolute;
+top:0;
+width: 100%;
+height: 100%;
+background-image: linear-gradient(white,black);
+opacity: 0.8;
+ 
+
+ }
+
+ section  div{
+    
+    position: relative;
+    text-align: center;
+    font-size: 2em;
+   width: 50%;
+   margin: auto;
+   
+ }
+
+
+section img{
+    display: block;
+    margin: 1em auto 1em auto;
+    width: 20%;
+    border-radius: 2em;
+    
+}
+
+section button{
+
+    border: 1em double white;
+    background: skyblue;
+    
+}
+
 /* PREGUNTAS FRECUENTES*/
 
 
@@ -178,7 +225,7 @@ padding: 1em;
 h3{   
      text-align: center;
     font-family: sans-serif;
-    color:#009975 ;
+    color:#c1a57b ;
     background:black;
     margin: 0 1em 0 1em;
     border-radius: 100px;

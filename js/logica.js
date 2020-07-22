@@ -41,6 +41,20 @@ boton1.addEventListener("click",cambiaFondo);
 boton2.addEventListener("click",cambiaFondo);
 boton3.addEventListener("click",cambiaFondo);
 
+///imagen de fondo bailando
+
+var patata=document.getElementById("cabecera").getElementsByTagName("img")[0];
+
+
+
+var patata_baila=function patata_baila(){
+patata.src="imagenes/patata.gif";
+}
+
+patata_baila();
+setInterval(patata_baila,5000);
+
+
 
 
 //validacion de formulario
